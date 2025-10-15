@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gate Pass Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Gate Pass Form</h2>
+        <form>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date">
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time">
+
+            <label for="duration">Expected Duration</label>
+            <input type="text" id="duration" name="duration" placeholder="ex: 30 minutes">
+
+            <label for="emp_fname">Employee Name</label>
+            <div class="name-row">
+                <input type="text" id="emp_fname" name="emp_fname" placeholder="First Name">
+                <input type="text" id="emp_lname" name="emp_lname" placeholder="Last Name">
+            </div>
+
+            <label for="emp_email">Employee Email</label>
+            <input type="email" id="emp_email" name="emp_email" placeholder="example@example.com">
+
+            <label for="department">Department</label>
+            <input type="text" id="department" name="department" placeholder="Department">
+
+            <label for="visitor_fname">Visitor Name</label>
+            <div class="name-row">
+                <input type="text" id="visitor_fname" name="visitor_fname" placeholder="First Name">
+                <input type="text" id="visitor_lname" name="visitor_lname" placeholder="Last Name">
+            </div>
+
+            <label for="visitor_email">Email</label>
+            <input type="email" id="visitor_email" name="visitor_email" placeholder="example@example.com">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
